@@ -45,7 +45,7 @@ from prettytable import PrettyTable
 from pyspark.ml.classification import RandomForestClassifier
 
 
-DataFile="/Users/geethumuru/Documents/Grad School/BU/CS777/Homeworks/Final Project/Aus_Weather_data_clean_final.csv"
+DataFile="Aus_Weather_data_clean.csv"
 
 
 
