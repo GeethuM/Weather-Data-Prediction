@@ -18,7 +18,7 @@ from pandas import read_csv
 
 
 
-pd_df = read_csv("/Users/geethumuru/Documents/Grad School/BU/CS777/Homeworks/Final Project/weatherAUS.csv")
+pd_df = read_csv("weatherAUS.csv")
 
 # Remove columns that are unnecessary based on visual analysis of csv file
 pd_df = pd_df.drop(columns = ["Sunshine", "Evaporation", "Location", 
@@ -60,7 +60,7 @@ pd_df = pd_df[['WindGustSpeed','cloud', 'pressure',
        'humidity', 'temp','RainToday', 'RainTomorrow']]
 
 # Save Dataframe to CSV file
-pd_df.to_csv("Aus_Weather_data_clean_final.csv")
+pd_df.to_csv("Aus_Weather_data_clean.csv")
 
 
 pd_df.head()
